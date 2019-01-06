@@ -1,0 +1,137 @@
+set $mod Mod1
+
+#Fonte
+font pango:Monospace 8
+
+#Janelas flutuantes
+floating_modifier $mod
+
+#Keybinds
+bindsym F1 exec termite #Terminal
+bindsym $mod+t exec thunar & #Thunar
+bindsym $mod+Shift+t exec $HOME/Telegram/./Telegram #Telegram
+bindsym $mod+Shift+i exec thunderbird #Icedove
+bindsym F3 exec /bin/reboot #Reboot
+bindsym F7 exec $HOME/script/./shutdown.sh #Shutdown
+bindsym F10 exec i3lock -i $HOME/Downloads/alexander-popov-342444-unsplash.jpg #Bloqueio de tela
+bindsym $mod+d exec /home/gilgamesh/script/./rofi.sh
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Deseja sair?' -b 'Yeah' 'i3-msg exit'"
+bindsym $mod+Ctrl+e exec $HOME/script/zeal.sh
+bindsym F2 exec emacsclient -c
+
+
+#Início automático
+exec --no-startup-id numlockx #NumLockX
+exec --no-startup-id $HOME/script/./script.sh #Background
+exec --no-startup-id /home/gilgamesh/script/./resolução.sh #Resolução
+exec --no-startup-id mpd
+exec --no-startup-id setxkbmap -option caps:ctrl_modifier -option kpdl:dot
+
+set $WS1 1: 
+set $WS2 2:  
+set $WS3 3: 
+set $WS4 4:  
+set $WS5 5:  
+set $WS6 6:  
+set $WS7 7:  
+set $WS8 8: 
+set $WS9 9: 
+set $WS0 10: 
+
+#Movimentar entre as workspaces
+bindsym $mod+1 workspace $WS1
+bindsym $mod+2 workspace $WS2
+bindsym $mod+3 workspace $WS3
+bindsym $mod+4 workspace $WS4
+bindsym $mod+5 workspace $WS5
+bindsym $mod+6 workspace $WS6
+bindsym $mod+7 workspace $WS7
+bindsym $mod+8 workspace $WS8
+bindsym $mod+9 workspace $WS9
+bindsym $mod+0 workspace $WS0
+
+#Movimentar janelas entre as workspaces
+bindsym $mod+Shift+1 move container to workspace $WS1
+bindsym $mod+Shift+2 move container to workspace $WS2
+bindsym $mod+Shift+3 move container to workspace $WS3
+bindsym $mod+Shift+4 move container to workspace $WS4
+bindsym $mod+Shift+5 move container to workspace $WS5
+bindsym $mod+Shift+6 move container to workspace $WS6
+bindsym $mod+Shift+7 move container to workspace $WS7
+bindsym $mod+Shift+8 move container to workspace $WS8
+bindsym $mod+Shift+9 move container to workspace $WS9
+bindsym $mod+Shift+0 move container to workspace $WS0
+
+#barra
+bar {
+	height 22
+ 	font pango:Source Sans Pro-10 10
+	status_command i3blocks -c ~/.config/i3/i3blocks.conf
+	position top
+  colors {
+    separator #dc322f
+    background #282c34
+    statusline #FFFFFF
+    focused_workspace #282c34 #aa4d29 #FFFFFF
+    active_workspace #282c34 #aa4d29 ##FFFFFF
+    inactive_workspace #aa4d29 #282c34 #aa4d29
+    urgent_workspace #d33682 #d33682 #fdf6e3
+
+  }
+}
+
+client.focused #282c34 #aa4d29 #fdf6e3 #859900
+client.focused_inactive #aa4d29 #282c34 #eee8d5 #6c71c4
+client.unfocused #f2f2e1 #282c34 #93a1a1 #586e75
+client.urgent #d33682 #d33682 #fdf6e3 #dc322f
+
+#i3-gaps config
+gaps inner 8
+gaps outer 8
+smart_gaps on
+smart_borders on
+for_window [class="^.*"] border pixel 1
+
+#Teclas de configuração
+bindsym $mod+Shift+r restart
+bindsym $mod+Shift+c reload
+
+bindsym $mod+a focus parent
+bindsym $mod+space focus mode_toggle
+bindsym $mod+Shift+space floating toggle
+
+bindsym $mod+s layout stacking
+bindsym $mod+v layout splitv
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+bindsym $mod+f fullscreen
+bindsym $mod+shift+s split toggle
+
+#bindsym $mod+v split v
+#bindsym $mod+h split h
+
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+bindsym $mod+l focus right
+bindsym $mod+h focus left
+bindsym $mod+k focus up
+bindsym $mod+j focus down
+
+bindsym $mod+shift+l move right
+bindsym $mod+shift+h move left
+bindsym $mod+shift+k move up
+bindsym $mod+shift+j move down
+
+bindsym $mod+Shift+q kill
+
+#default_orientation vertical
+workspace_layout default
+#workspace_layout tabbed
