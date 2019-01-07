@@ -9,46 +9,81 @@ This its my personal dotfiles of my Arch Linux, with the [[https://github.com/Ai
 
 *** Emacs
 =Super= - Metakey;
+
 =C-x C-e= - Eval buffer;
+
 =C-x C-m= - Open Mingus;
+
 =C-x C-w= - Focus on other window;
+
 =C-x C-c= - Kill Emacs;
+
 =C-x 2= - Horizontal split;
+
 =C-x 3= - Vertical split;
+
 =C-x C-f= - Open a file;
+
 =C-x C-s= - Search on a buffer;
 
 *** Vim
+
 =:q= - Kill a buffer, if the vim has only one buffer open, it will kill the vim;
+
 =:wq= - Save and exit vim;
+
 =:q!= - Exit without save;
+
 =/= - Search;
+
 =<s-s>= - Open a vertical split;
+
 =<c-ww>= - Focus in other split;
+
 =<s-t>= - Compile LaTex file to pdf;
+
 =<s-p>= - View the pdf file;
 
 For more keybinds on Vim, please, visit [[https://vim.rtorr.com/][Vim Cheat Sheet]].
 
 *** i3-gaps
+
 =Alt= - ModKey;
+
 =Alt+d= - Open rofi;
+
 =Alt+t= - Open thunar;
+
 =Alt+Shift+t= - Open Telegram;
+
 =Alt+[1-9]= - Jump to other workspace;
+
 =Alt+Shift+[1-9]= - Jump the software to other workspace;
+
 =Alt+shift+i= - Open Thunderbird;
+
 =Alt+Ctrl+e= - Open ZealDocs;
+
 =Alt+Shift+q= - Kill a window;
+
 =Alt+Shift+r= - Restart the i3;
+
 =Alt+Shift+c= - Reload the i3;
+
 =F1= - Open termite;
+
 =F2= - Open emacsclient;
+
 =F3= - Reboot;
+
 =F7= - Shutdown;
+
 =F10= - Block the screen;
+
 =Alt+Shift+Space= - Toggle the window to floating mode;
+
 =Alt+Arrow_keys= - Change the focus of a window;
+
 =Alt+Shift+Arrow_keys= - Move a window;
 
 
