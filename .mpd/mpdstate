@@ -1,0 +1,63 @@
+sw_volume: 100
+audio_device_state:1:My Alse Output
+audio_device_state:1:my_fifo
+state: play
+current: 16
+time: 1.172000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Red Hot/01 Around the World.mp3
+1:Red Hot/02 Parallel Universe.mp3
+2:Red Hot/03 Scar Tissue.mp3
+3:Red Hot/04 Otherside.mp3
+4:Red Hot/05 Get on Top.mp3
+5:Red Hot/06 Californication.mp3
+6:Red Hot/07 Easily.mp3
+7:Red Hot/08 Porcelain.mp3
+8:Red Hot/09 Emit Remmus.mp3
+9:Red Hot/10 I Like Dirt.mp3
+10:Red Hot/11 This Velvet Glove.mp3
+11:Red Hot/12 Savior.mp3
+12:Red Hot/13 Purple Stain.mp3
+13:Red Hot/14 Right On Time.mp3
+14:Red Hot/15 Road Trippin.mp3
+15:Red Hot/01. The Getaway.mp3
+16:Red Hot/02. Dark Necessities.mp3
+17:Red Hot/03. We Turn Red.mp3
+18:Red Hot/04. The Longest Wave.mp3
+19:Red Hot/05. Goodbye Angels.mp3
+20:Red Hot/06. Sick Love.mp3
+21:Red Hot/07. Go Robot.mp3
+22:Red Hot/08. Feasting on the Flowers.mp3
+23:Red Hot/09. Detroit.mp3
+24:Red Hot/10. This Ticonderoga.mp3
+25:Red Hot/11. Encore.mp3
+26:Red Hot/12. The Hunter.mp3
+27:Red Hot/13. Dreams of a Samurai.mp3
+28:Red Hot/01 - Road Trippin'.mp3
+29:Red Hot/02 - Give It Away.mp3
+30:Red Hot/03 - Californication.mp3
+31:Red Hot/04 - Can't Stop.mp3
+32:Red Hot/05 - Under The Bridge.mp3
+33:Red Hot/06 - Parallel Universe.mp3
+34:Red Hot/07 - Universally Speaking.mp3
+35:Red Hot/08 - Suck My Kiss.mp3
+36:Red Hot/09 - Fortune Faded.mp3
+37:Red Hot/10 - Dani California.mp3
+38:Red Hot/11 - Breaking The Girl.mp3
+39:Red Hot/12 - Scar Tissue.mp3
+40:Red Hot/13 - Snow (Hey Oh).mp3
+41:Red Hot/14 - By The Way.mp3
+42:Red Hot/15 - Otherside.mp3
+43:Red Hot/16 - Aeroplane.mp3
+44:Red Hot/17 - The Zephyr Song.mp3
+45:Red Hot/18 - Fight Like A Brave.mp3
+46:Red Hot/19 - Higher Ground.mp3
+47:Red Hot/20 - The Adventures Of Rain Dance Maggie.mp3
+playlist_end

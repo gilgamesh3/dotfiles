@@ -1,0 +1,91 @@
+#+TITLE: My personal dotfiles
+
+* Introduction
+
+
+This its my personal dotfiles of my Arch Linux, with the [[https://github.com/Airblader/i3][i3-gaps]] as a Desktop Enviroment.
+
+** Keybinds
+
+*** Emacs
+=Super= - Metakey;
+=C-x C-e= - Eval buffer;
+=C-x C-m= - Open Mingus;
+=C-x C-w= - Focus on other window;
+=C-x C-c= - Kill Emacs;
+=C-x 2= - Horizontal split;
+=C-x 3= - Vertical split;
+=C-x C-f= - Open a file;
+=C-x C-s= - Search on a buffer;
+
+*** Vim
+=:q= - Kill a buffer, if the vim has only one buffer open, it will kill the vim;
+=:wq= - Save and exit vim;
+=:q!= - Exit without save;
+=/= - Search;
+=<s-s>= - Open a vertical split;
+=<c-ww>= - Focus in other split;
+=<s-t>= - Compile LaTex file to pdf;
+=<s-p>= - View the pdf file;
+
+For more keybinds on Vim, please, visit [[https://vim.rtorr.com/][Vim Cheat Sheet]].
+
+*** i3-gaps
+=Alt= - ModKey;
+=Alt+d= - Open rofi;
+=Alt+t= - Open thunar;
+=Alt+Shift+t= - Open Telegram;
+=Alt+[1-9]= - Jump to other workspace;
+=Alt+Shift+[1-9]= - Jump the software to other workspace;
+=Alt+shift+i= - Open Thunderbird;
+=Alt+Ctrl+e= - Open ZealDocs;
+=Alt+Shift+q= - Kill a window;
+=Alt+Shift+r= - Restart the i3;
+=Alt+Shift+c= - Reload the i3;
+=F1= - Open termite;
+=F2= - Open emacsclient;
+=F3= - Reboot;
+=F7= - Shutdown;
+=F10= - Block the screen;
+=Alt+Shift+Space= - Toggle the window to floating mode;
+=Alt+Arrow_keys= - Change the focus of a window;
+=Alt+Shift+Arrow_keys= - Move a window;
+
+
+** Softwares
+
+- [[https://www.archlinux.org/packages/extra/x86_64/feh/][Feh]];
+- [[https://www.archlinux.org/packages/extra/x86_64/emacs/][GNU Emacs]];
+- [[https://www.archlinux.org/packages/community/x86_64/i3blocks/][i3blocks]];
+- [[https://www.archlinux.org/packages/community/x86_64/i3-gaps/][i3-gaps]];
+- [[https://www.archlinux.org/packages/community/x86_64/i3lock/][i3lock]];
+- [[https://www.archlinux.org/packages/extra/x86_64/mpd/][Music Player Daemon (MPD)]];
+- [[https://www.archlinux.org/packages/community/x86_64/ncmpcpp/][Ncmpcpp]];
+- [[https://www.archlinux.org/packages/community/x86_64/rofi/][Rofi]];
+- [[https://www.archlinux.org/packages/community/x86_64/telegram-desktop/][Telegram Desktop]];
+- [[https://www.archlinux.org/packages/extra/x86_64/thunar/][Thunar]];
+- [[https://www.archlinux.org/packages/extra/x86_64/thunderbird/][Thunderbird]];
+- [[https://www.archlinux.org/packages/community/x86_64/termite/][Termite]];
+- [[https://www.archlinux.org/packages/extra/x86_64/vim/][Vim]];
+- [[https://www.archlinux.org/packages/community/x86_64/zeal/][Zeal Docs]];
+- [[https://www.archlinux.org/packages/extra/x86_64/zsh/][Zsh]]
+
+*** Fonts
+
+- [[https://www.archlinux.org/packages/community/any/awesome-terminal-fonts/][Awesome Terminal Fonts]];
+- [[https://www.archlinux.org/packages/extra/x86_64/pango/][Pango]];
+
+** Plugins on Vim
+
+- [[https://github.com/VundleVim/Vundle.vim][Vundle]];
+- [[https://github.com/vim-airline/vim-airline][Vim Airline]];
+- [[https://github.com/vim-airline/vim-airline-themes][Vim Airline Themes]];
+- [[https://github.com/vim-scripts/LaTeX-Box][LaTeX-Box]];
+
+** Plugins on Emacs
+
+- [[https://melpa.org/#/doom-themes][Doom-Themes]];
+- [[https://melpa.org/#/powerline][Powerline]];
+- [[https://melpa.org/#/mingus][Mingus]];
+- [[https://melpa.org/#/ein][Ein - Emacs IPython Notebook]];
+- [[https://melpa.org/#/ess][Ess - Emacs Speaks Statistics]];
