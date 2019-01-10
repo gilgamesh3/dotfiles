@@ -103,7 +103,7 @@ For more keybinds on Vim, please, visit [[https://vim.rtorr.com/][Vim Cheat Shee
 - [[https://www.archlinux.org/packages/community/x86_64/termite/][Termite]];
 - [[https://www.archlinux.org/packages/extra/x86_64/vim/][Vim]];
 - [[https://www.archlinux.org/packages/community/x86_64/zeal/][Zeal Docs]];
-- [[https://www.archlinux.org/packages/extra/x86_64/zsh/][Zsh]]
+- [[https://www.archlinux.org/packages/extra/x86_64/zsh/][Zsh]];
 
 *** Fonts
 
@@ -124,3 +124,4 @@ For more keybinds on Vim, please, visit [[https://vim.rtorr.com/][Vim Cheat Shee
 - [[https://melpa.org/#/mingus][Mingus]];
 - [[https://melpa.org/#/ein][Ein - Emacs IPython Notebook]];
 - [[https://melpa.org/#/ess][Ess - Emacs Speaks Statistics]];
+- [[https://melpa.org/#/company][Company]];
