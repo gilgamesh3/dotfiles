@@ -16,6 +16,8 @@ This its my personal dotfiles of my Arch Linux, with the [[https://github.com/Ai
 
 =C-x C-w= - Focus on other window;
 
+=C-x w= - Open Elfeed buffer;
+
 =C-x C-c= - Kill Emacs;
 
 =C-x 2= - Horizontal split;
@@ -125,3 +127,4 @@ For more keybinds on Vim, please, visit [[https://vim.rtorr.com/][Vim Cheat Shee
 - [[https://melpa.org/#/ein][Ein - Emacs IPython Notebook]];
 - [[https://melpa.org/#/ess][Ess - Emacs Speaks Statistics]];
 - [[https://melpa.org/#/company][Company]];
+- [[https://melpa.org/#/elfeed][Elfeed]];
